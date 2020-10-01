@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controle de Estoque", "Controle de Estoque\Controle de Estoque.csproj", "{BDFD2715-80EA-417C-B9F9-1A5F970B9966}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controle de Gastos", "Controle de Estoque\Controle de Gastos.csproj", "{BDFD2715-80EA-417C-B9F9-1A5F970B9966}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

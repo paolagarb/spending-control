@@ -1,4 +1,5 @@
-﻿namespace Controle_de_Gastos   partial class TelaControleDeGastos
+﻿namespace Controle_de_Gastos { 
+    partial class TelaControleDeGastos
 {
     /// <summary>
     /// Variável de designer necessária.

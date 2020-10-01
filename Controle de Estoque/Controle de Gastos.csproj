@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BDFD2715-80EA-417C-B9F9-1A5F970B9966}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Controle_de_Estoque</RootNamespace>
-    <AssemblyName>Controle de Estoque</AssemblyName>
+    <RootNamespace>Controle_de_Gastos</RootNamespace>
+    <AssemblyName>Controle de Gastos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Controle_de_Estoque
+namespace Controle_de_Gastos
 {
     static class Program
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Controle_de_Estoque
+namespace Controle_de_Gastos
 {
     public partial class TelaControleDeGastos : Form
     {

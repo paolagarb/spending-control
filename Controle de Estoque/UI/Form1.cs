@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Controle_de_Estoque
 {
-    public partial class Form1 : Form
+    public partial class TelaControleDeGastos : Form
     {
-        public Form1()
+        public TelaControleDeGastos()
         {
             InitializeComponent();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -51,6 +51,7 @@
             // 
             this.lblData.AutoSize = true;
             this.lblData.Font = new System.Drawing.Font("Dubai", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblData.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblData.Location = new System.Drawing.Point(18, 23);
             this.lblData.Name = "lblData";
             this.lblData.Size = new System.Drawing.Size(57, 32);
@@ -72,6 +73,7 @@
             // 
             this.lblValor.AutoSize = true;
             this.lblValor.Font = new System.Drawing.Font("Dubai", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValor.ForeColor = System.Drawing.Color.Black;
             this.lblValor.Location = new System.Drawing.Point(234, 23);
             this.lblValor.Name = "lblValor";
             this.lblValor.Size = new System.Drawing.Size(61, 32);
@@ -92,6 +94,7 @@
             this.lblDescricao.AutoSize = true;
             this.lblDescricao.Cursor = System.Windows.Forms.Cursors.No;
             this.lblDescricao.Font = new System.Drawing.Font("Dubai", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescricao.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblDescricao.Location = new System.Drawing.Point(18, 61);
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(95, 32);
@@ -114,7 +117,7 @@
             this.groupBox1.Controls.Add(this.btnPesquisar);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.groupBox1.Location = new System.Drawing.Point(24, 94);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(391, 62);
@@ -209,6 +212,7 @@
             // 
             this.dgvDados.AllowUserToAddRows = false;
             this.dgvDados.AllowUserToDeleteRows = false;
+            this.dgvDados.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDados.Location = new System.Drawing.Point(18, 165);
             this.dgvDados.MultiSelect = false;
@@ -233,7 +237,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(555, 341);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.dgvDados);
@@ -249,7 +253,7 @@
             this.Controls.Add(this.dtpDataGasto);
             this.Controls.Add(this.lblData);
             this.ForeColor = System.Drawing.Color.Cornsilk;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TelaControleDeGastos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Controle de Gastos";

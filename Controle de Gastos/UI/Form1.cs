@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Controle_de_Gastos
 {
-    
+
     public partial class TelaControleDeGastos : Form
     {
         private ControladorGastos controlador;
@@ -41,7 +41,7 @@ namespace Controle_de_Gastos
 
         private void dgvDados_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >=0)
+            if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = dgvDados.Rows[e.RowIndex];
                 idSelecionado = int.Parse(row.Cells["ID"].Value.ToString());
@@ -133,7 +133,8 @@ namespace Controle_de_Gastos
                 MessageBox.Show("Informa o Valor", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtValor.Focus();
                 return;
-            } else
+            }
+            else
             {
                 valor = Convert.ToDouble(txtValor.Text);
             }
@@ -143,7 +144,8 @@ namespace Controle_de_Gastos
                 MessageBox.Show("Preencha a Descrição", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtDescricao.Focus();
                 return;
-            } else
+            }
+            else
             {
                 descricao = txtDescricao.Text;
             }
@@ -166,6 +168,42 @@ namespace Controle_de_Gastos
         private void btnTodos_Click(object sender, EventArgs e)
         {
             ListarTodos();
+        }
+
+        private void txtValor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtValor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= '0' && e.KeyChar <= '9') {
+                e.Handled = false;
+            } else if ((int)e.KeyChar == 8) //8 = espaço
+            {
+                e.Handled = false;
+            }
+            else if (e.KeyChar == ',' || e.KeyChar == '.')
+            {
+                e.KeyChar = ',';
+                if (txtValor.Text.IndexOf(',') == -1)
+                {
+                    e.Handled = false;
+                }
+                else
+                {
+                    e.Handled = true;
+                }
+            }
+            else if ((int)e.KeyChar == 13) //13 = enter
+            {
+                txtDescricao.Focus();
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
         }
     }
 }

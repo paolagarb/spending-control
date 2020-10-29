@@ -21,6 +21,7 @@ namespace Controle_de_Gastos
         {
             InitializeComponent();
             controlador = new ControladorGastos();
+            dgvDados.ForeColor = Color.Black;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

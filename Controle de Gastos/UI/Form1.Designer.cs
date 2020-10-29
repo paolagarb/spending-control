@@ -217,6 +217,7 @@
             this.dgvDados.AllowUserToDeleteRows = false;
             this.dgvDados.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDados.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvDados.Location = new System.Drawing.Point(18, 165);
             this.dgvDados.MultiSelect = false;
             this.dgvDados.Name = "dgvDados";
@@ -230,6 +231,7 @@
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Dubai", 14F);
+            this.lblTotal.ForeColor = System.Drawing.Color.Black;
             this.lblTotal.Location = new System.Drawing.Point(24, 307);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(0, 32);

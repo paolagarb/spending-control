@@ -62,6 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\ControladorGastos.cs" />
     <Compile Include="BLL\Gasto.cs" />
     <Compile Include="DAL\ConexaoBD.cs" />
     <Compile Include="DAL\DAOFactory.cs" />

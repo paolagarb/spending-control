@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Controle_de_Gastos.BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,8 +11,12 @@ using System.Windows.Forms;
 
 namespace Controle_de_Gastos
 {
+    
     public partial class TelaControleDeGastos : Form
     {
+        private ControladorGastos controlador;
+        private int? id;
+
         public TelaControleDeGastos()
         {
             InitializeComponent();

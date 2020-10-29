@@ -118,9 +118,9 @@
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox1.Location = new System.Drawing.Point(24, 94);
+            this.groupBox1.Location = new System.Drawing.Point(18, 94);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(391, 62);
+            this.groupBox1.Size = new System.Drawing.Size(397, 62);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Pesquisar";
@@ -238,7 +238,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
-            this.ClientSize = new System.Drawing.Size(555, 341);
+            this.ClientSize = new System.Drawing.Size(555, 349);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.dgvDados);
             this.Controls.Add(this.btnSair);

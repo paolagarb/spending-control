@@ -25,6 +25,11 @@
 
 - Somar total de gastos
 
+<div align="center">
+  
+  ![Gastos](https://user-images.githubusercontent.com/69488783/109194842-95ec3c00-7778-11eb-8d02-02ca33741ac3.png)
+  
+</div>
 
 Arquitetura em 3 camadas
 

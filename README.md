@@ -35,4 +35,3 @@ Arquitetura em 3 camadas
 
 :heavy_exclamation_mark: Projeto realizado na aula de Programação Orientada a Objetos II com o professor Alexandre Mignon (UNIP)
 
-:heavy_exclamation_mark: Realizei alterações no design
